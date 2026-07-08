@@ -23,10 +23,10 @@ dQIDAQAB
 -----END PUBLIC KEY-----"""
 
 # 4. Q3: 12-Factor Config (Manually merge the variables)
-Q3_PORT = 8000
-Q3_WORKERS = 1
-Q3_DEBUG = False
-Q3_LOG_LEVEL = "info"
+Q3_PORT = 8378
+Q3_WORKERS= 1
+Q3_DEBUG = True
+Q3_LOG_LEVEL = "debug"
 
 # 5. Q5: Analytics (Find the API key in the Q5 instruction tab)
 Q5_API_KEY = "ak_24d6kvgeof61xsb2qaothqvc"
